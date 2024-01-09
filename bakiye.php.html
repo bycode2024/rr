@@ -1,0 +1,346 @@
+﻿<html class="fp-enabled" lang="tr" style="overflow: hidden; height: 100%;">
+
+<head>
+    <script async="" src="pagead/js/f.txt?client=ca-pub-4100292802269797" crossorigin="anonymous"></script>
+	<meta charset="UTF-8">
+	<title>Always Roleplay | Anasayfa </title>
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta name="description" content="Always RolePlay, Türkiye'nin en kaliteli roleplay sunucusudur. Bize katılın, çünkü biz en iyisiyiz!">
+	<meta name="keywords" content="RP, РП, RolePlay, Рол плей, Role Play,GTA San Andreas, GTA, ГТА 5,Always RP, MTA RP, ГТА 5 РП, Мультиплеер, онлайн, always rp, always roleplay, войс чат,"> 
+	<meta name="author" content="Vegas-Hypnos">
+	<link href="css/slick7b307b30.css?v=4" rel="stylesheet">
+	<link href="css/main7b307b30.css?v=4" rel="stylesheet">
+	<link href="css/fullpage7b307b30.css?v=4" rel="stylesheet">
+	<link href="favicon.ico" rel="shortcut icon">
+	<link href="css/themes/semantic.rtl.min7b307b30.css?v=4" rel="stylesheet">
+	<script src="js/jquery-1.11.3.min7b307b30.js?v=4"></script>
+	<script src="js/fm.revealator.jquery.min7b307b30.js?v=4"></script>
+	<script src="js/jquery-ui7b307b30.js?v=4"></script>
+<script>
+	   jQuery(function($) {
+	   
+	   var index = 'qpsstats-active-tab';
+	   var dataStore = window.sessionStorage;
+	   var oldIndex = 0;
+	   
+	   var tabs = $('.about_tabs');
+	   var tabs_select = true;
+	   var selector = $(".about_tabs").find(".slide__redage");
+	   var activeItem = tabs.find('.about_tabs li .ui-state-active');
+	   var activeWidth = activeItem.innerWidth();
+	   
+	   $(".slide__redage").css({
+	     "left": activeItem.position.left + "px", 
+	     "width": activeWidth + "px"
+	   });
+
+
+
+	       
+	   try {
+	       oldIndex = dataStore.getItem(index);
+	       $('#redage_slide').addClass('animated fadeInLeft tabs' + oldIndex);
+	       $('#redage_slide').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
+	           $(this).removeClass('animated fadeInLeft');
+	       });
+	   } catch (e) {}
+
+
+	   $("#tabs").tabs({
+	       active: oldIndex,
+	       hide: {
+	           effect: "fade",
+	           duration: 200
+	       },
+	       show: { 
+	           function( event, ui ) {
+
+	           alert('2');
+	           },
+	           effect: "fade",
+	           direction: "right",
+	           duration: 200
+	       }, 
+	       activate: function(event, ui) {
+				   tabs_select = false;
+					
+				   var newIndex = ui.newTab.parent().children().index(ui.newTab);
+				
+				   $('#redage_slide').removeClass();
+				   $('#redage_slide').addClass('animated fadeInLeft tabs' + newIndex);
+				   $('#redage_slide').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
+					   $(this).removeClass('animated fadeInLeft');  
+				 });
+					var isn = $('.ui-tabs-active');
+					var activeWidth = isn.innerWidth();
+					var itemPos = isn.position();
+						 $(".slide__redage").css({
+						   "left":itemPos.left + "px", 
+						   "width": activeWidth + "px"
+					});
+	           
+			   
+	           try {
+	               dataStore.setItem(index, newIndex);
+	           } catch (e) {}
+				tabs_select = true;
+	       }
+	   })
+	   
+	   
+			window.onload = function() {
+			var elm = $(".revealator-slideright");
+			elm.css('transform','translate(0, 0)').css('opacity', '1').css('z-index', '1');
+			};
+				   
+			
+	    	function slider_tabs() {
+	        var elm = $(".ui-state-active");
+	        var activeWidth = elm.innerWidth();
+	        var itemPos = elm.position();
+	        $(".slide__redage").css({
+			"left":itemPos.left + "px", 
+			"width": activeWidth + "px"
+			});
+			}
+			window.onresize = function(event) {
+			slider_tabs();
+		    };
+			
+			
+			slider_tabs();
+	})
+	</script>
+	<style>
+	   .ajs-message.ajs-default_rd {
+	   background: rgba(166, 166, 166, 0.65);
+	   color: #fff;
+	   border: none;
+	   border-radius: 6px;
+	   }
+	</style>
+
+</head>
+
+<body class="layout fp-viewing-intro fp-responsive" style="overflow: hidden; height: 100%;">
+    
+    
+    
+<div id="p_prldr"><div class="contpre"><span class="svg_anm"></span><br>Lütfen bekleyin<br><small>Yükleniyor...</small></div></div>
+	<div class="layout__header">
+		<div class="container">
+			<div class="header" id="myMenu">
+				<div class="header__content">
+					<div class="header__logo">
+						<a class="logo active" href="#home"></a>
+					</div>
+					<div class="header__bars">
+						<div class="bars js-controller" data-controlled=".header__links"></div>
+					</div>
+				</div>
+				<div class="header__links">
+					<div class="header__nav">
+						<div class="nav">
+							<a class="nav__link" data-menuanchor="home" href="index.htm#home">Anasayfa</a> 
+							<a class="nav__link" data-menuanchor="about-the-project" href="index.htm#about-the-project">Hakkında</a> 
+							<a class="nav__link" data-menuanchor="How-to-start-playing" href="index.htm#How-to-start-playing">Nasıl Oynanır?</a> 
+							 <a class="nav__link nav__link_donate active" href="bakiye.php.html">Bakiye Yükle</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="pxl">
+						<div id="scene">
+							<div class="slide-main__bg" data-depth="0.2"></div>
+						</div>
+					</div>
+	
+<div class="slide-content slide-content_home container">
+						<div class="home slide-content__content wrapper">
+							<div class="home__main revealator-slideright revealator-once">
+								<h1>
+									<br>
+								</h1>
+								
+								<style>
+							        
+							        .olalanoc {
+							            font-size: 50px;
+							        }
+							        
+							
+                                    .form__group {
+                                      position: relative;
+                                      padding: 15px 0 0;
+                                      margin-top: 10px;
+                                      width: 50%;
+                                    }
+                                    
+                                    .form__field {
+                                      font-family: inherit;
+                                      width: 100%;
+                                      border: 0;
+                                      border-bottom: 2px solid #9b9b9b;
+                                      outline: 0;
+                                      font-size: 1.3rem;
+                                      color: #fff;
+                                      padding: 7px 0;
+                                      background: transparent;
+                                      transition: border-color 0.2s;
+                                    
+                                      &::placeholder {
+                                        color: transparent;
+                                      }
+                                    
+                                      &:placeholder-shown ~ .form__label {
+                                        font-size: 1.3rem;
+                                        cursor: text;
+                                      }
+                                    }
+                                    
+                                    .form__label {
+                                      position: absolute;
+
+                                      display: block;
+                                      transition: 0.2s;
+                                      font-size: 1rem;
+                                      color: #9b9b9b;
+                                    }
+                                    
+                                    .form__field:focus {
+                                        display: block;
+                                        transition: 0.2s;
+                                        font-size: 1rem;
+                                        color: #FFA16F;
+                                        font-weight:700;    
+                                    
+                                      padding-bottom: 6px;  
+                                      font-weight: 700;
+                                      border-width: 3px;
+                                      border-image: linear-gradient(to right, #FF7069,#FFA16F);
+                                      border-image-slice: 1;
+                                    }
+                                    /* reset input */
+                                    .form__field{
+                                      &:required,&:invalid { box-shadow:none; }
+                                    }
+                                    /* demo */
+                                    body {
+                                      font-family: 'Poppins', sans-serif; 
+                                      display: flex;
+                                      flex-direction: column;
+                                      justify-content: center;
+                                      align-items: center;
+                                      min-height: 100vh;
+                                      font-size: 1.5rem;
+                                      background-color:#222222;
+                                    }
+								    
+								</style>
+								<script>
+								
+								
+								  updateCount = () => {
+								     
+    let price = document.getElementById("bakiyeyuke");
+ console.log(price.value)
+    let loadSpan = document.getElementById("bakiye");
+    let loadSpan2 = document.getElementById("bakiyeode");
+    if (!price) return;
+    
+    var comission =
+      (Number(price.value) / 100) * 
+      4.5 + 0.50;
+      if (price.value < 1) comission = 0;
+    //var kdv = Number(price.value) / 100 * 18;
+    this.totalPayment = Number(price.value) + comission; // + kdv;
+   this.totalPayment2 = Number(price.value) + Number(price.value) * 15 / 100;
+   //this.totalPayment2 = Number(price.value);
+
+
+    loadSpan.innerHTML = `Toplam Ödenecek Tutar: ${this.totalPayment} TL`;
+    loadSpan2.innerHTML = `Hesabınıza Geçecek Tutar: ${Math.floor(this.totalPayment2)} TL`;
+
+    //document.getElementById('check-control').style.display = price.value > 500 ? 'flex' : 'none';
+  };
+  setInterval(this.updateCount, 50);
+							
+    </script>							
+    								                                    <form action="" method="post">
+                                        	<div class="md_bls">
+    								
+    								<div class="title_news">↓ Bakiye yüklemek için alt kısma bakabilirsiniz</div>
+									
+									<ul class="news_block">
+           								<li><input type="text" class="form__field" maxlength="25" placeholder="Kullanıcı Adı" required="required" name="username2" id='username'></li>
+										<li><input type="number" class="form__field" placeholder="Yüklenecek Bakiye" oninput="if(value.length>5)value=value.slice(0,5)" required="required" name="bakiyeyuke2" id='bakiyeyuke'></li>									<li><input type="email" class="form__field" placeholder="Email Adresi" maxlength="55" required="required" name="mail" id='mail'></li>
+										<li><span class="form__field" name="bakiye" id='bakiye'></span>Toplam Ödenecek Tutar:</li>
+																				<li><span class="form__field" name="bakiyeode" id='bakiyeode'></span>Hesabınıza Geçecek Tutar:</li>
+									</ul>
+    								<div class="home__button">
+    									<input class="primary_btn gradient_btn__orange start_play" type="submit" name="aynen" value="Bakiye Yükle!">
+    									
+    								</div>
+    
+								</div>
+							</form></div>
+							</form>
+
+							<div class="per__main">
+								<div class="person__left revealator-slideright revealator-once"></div>
+								<div class="person__right revealator-slideleft revealator-delay2 revealator-once">
+									<div class="dialog__left">
+										<span class="circle__left__a revealator-delay10 revealator-fade revealator-once"></span>
+										<span class="circle__left__b revealator-delay11 revealator-fade revealator-once"></span> 
+										<span class="text__dialog revealator-delay14 revealator-fade revealator-once" id="d1">Dostum artık bakiye yüklemek çok basit.</span>
+									</div>
+									<div class="dialog__right">
+										<span class="circle__right__a revealator-delay2 revealator-fade revealator-once"></span>
+										<span class="circle__right__b revealator-delay5 revealator-fade revealator-once"></span> 
+										<span class="text__dialog revealator-delay7 revealator-fade revealator-once" id="d2">Nasıl ya?</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+
+	<link href="css/slick-theme7b307b30.css?v=4" rel="stylesheet">
+	<link href="css/fm.revealator.jquery7b307b30.css?v=4" rel="stylesheet">
+	<link href="css/animate7b307b30.css?v=4" rel="stylesheet">
+	<link href="css/magnific-popup7b307b30.css?v=4" rel="stylesheet">
+	<link href="css/alertify.min7b307b30.css?v=4" rel="stylesheet">
+	<script src="js/alertify.min7b307b30.js?v=4">
+	</script> 
+	<script src="js/jquery7b307b30.js?v=4">
+	</script> 
+	<script src="js/fastmark7b307b30.js?v=4">
+	</script> 
+	<script src="js/fullpage7b307b30.js?v=4">
+	</script> 
+	<script src="js/parallax7b307b30.js?v=4">
+	</script> 
+	<script src="js/main7b307b30.js?v=4">
+	</script> 
+	<script src="js/slick.min7b307b30.js?v=4">
+	</script> 
+	<script src="js/jquery.magnific-popup7b307b30.js?v=4">
+	</script> 
+	
+	
+	<script>$(window).on('load', function () {
+    var $preloader = $('#p_prldr'),
+        $svg_anm   = $preloader.find('.svg_anm');
+    $svg_anm.fadeOut();
+    $preloader.delay(500).fadeOut('slow');
+});</script>
+	<div id="fp-nav">
+		<ul></ul>
+	</div>
+</body>
+
+</html>
